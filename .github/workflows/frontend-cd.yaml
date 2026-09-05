@@ -8,7 +8,8 @@ on:
   workflow_dispatch:
 
 env:
-  REACT_APP_MOVIE_API_URL: http://localhost:5000
+  env:
+  REACT_APP_MOVIE_API_URL: http://a0ff20d40fdaf4e56a7b9f1c656fae0f-1671198428.us-east-1.elb.amazonaws.com
   AWS_REGION: us-east-1
   ECR_REPOSITORY: frontend
 
