@@ -12,7 +12,7 @@ env:
   ECR_REPOSITORY: backend
 
 jobs:
-    lint:
+  lint:
     runs-on: ubuntu-latest
     defaults:
       run:
